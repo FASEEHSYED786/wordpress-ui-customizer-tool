@@ -1,0 +1,174 @@
+.vss-admin {
+  max-width: 980px;
+}
+
+.vss-admin__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 12px 0 20px;
+}
+
+.vss-admin__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  font-weight: 700;
+  color: #2271b1;
+  margin: 0 0 6px;
+}
+
+.vss-admin h1 {
+  margin: 0 0 8px;
+}
+
+.vss-admin__lede {
+  margin: 0;
+  max-width: 58ch;
+  color: #50575e;
+}
+
+.vss-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.vss-tabs__btn {
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+.vss-tabs__btn.is-active {
+  background: #1d2327;
+  border-color: #1d2327;
+  color: #fff;
+}
+
+.vss-panel {
+  display: none;
+}
+
+.vss-panel.is-active {
+  display: block;
+}
+
+.vss-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 16px;
+}
+
+@media (max-width: 782px) {
+  .vss-admin__header,
+  .vss-grid {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}
+
+.vss-card {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 12px;
+  padding: 20px 22px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.vss-card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.vss-steps {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.vss-steps li {
+  margin: 0 0 8px;
+}
+
+.vss-item {
+  border: 1px solid #dcdcde;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 12px 0;
+  background: #f6f7f7;
+}
+
+.vss-item h3 {
+  margin: 0 0 10px;
+}
+
+.vss-form label,
+.vss-item label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.vss-form input,
+.vss-form select,
+.vss-form textarea,
+.vss-item input,
+.vss-item select,
+.vss-item textarea {
+  width: 100%;
+  max-width: 100%;
+  font-weight: 400;
+}
+
+.vss-check {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 8px !important;
+}
+
+.vss-check input {
+  width: auto;
+}
+
+.vss-stat {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.vss-muted {
+  color: #646970;
+}
+
+.vss-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background: #1d2327;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  z-index: 100000;
+}
+
+.vss-item__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.vss-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
