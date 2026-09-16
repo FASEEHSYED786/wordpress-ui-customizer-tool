@@ -115,7 +115,7 @@
         field('Margin', '<input type="text" data-prop="margin" placeholder="0" value="' + escapeAttr(draft.properties.margin || '') + '">') +
         '</div>' +
         field('Opacity', '<input type="range" min="0" max="1" step="0.05" data-prop="opacity" value="' + escapeAttr(draft.properties.opacity || '1') + '">') +
-        field('Custom CSS', '<textarea rows="3" data-field="custom_css" placeholder="letter-spacing: .02em;">' + escapeHtml(draft.custom_css) + '</textarea>') +
+        field('Custom CSS', '<textarea rows="3" data-field="custom_css" placeholder="Optional extra CSS">' + escapeHtml(draft.custom_css) + '</textarea>') +
         '<div class="vss-panel__actions">' +
         '<button type="button" class="vss-btn vss-btn--danger" id="vss-delete">Remove rule</button>' +
         '</div>';
@@ -502,7 +502,7 @@
   }
 
   function toColor(value) {
-    return /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(value || '') ? value : '#5b8def';
+    return /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(value || '') ? value : '#000000';
   }
 
   function selectedAttr(current, value) {

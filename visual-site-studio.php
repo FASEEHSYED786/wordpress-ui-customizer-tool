@@ -3,7 +3,7 @@
  * Plugin Name: Visual Site Studio
  * Plugin URI: https://syedfaseeh.com/visual-site-studio
  * Description: Commercial visual editor for WordPress — inspect any element, restyle it without touching theme files, run a white-label client dashboard, and drop in scheduled dynamic content.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Syed Faseeh Ul Hassan
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('VSS_VERSION', '2.0.0');
+define('VSS_VERSION', '2.0.1');
 define('VSS_FILE', __FILE__);
 define('VSS_DIR', plugin_dir_path(__FILE__));
 define('VSS_URL', plugin_dir_url(__FILE__));

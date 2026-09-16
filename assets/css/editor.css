@@ -162,17 +162,10 @@
   letter-spacing: 0.06em;
 }
 
-.vss-field input,
-.vss-field select,
-.vss-field textarea {
-  width: 100%;
-  box-sizing: border-box;
-  background: var(--vss-bg);
-  color: var(--vss-text);
-  border: 1px solid var(--vss-border);
-  border-radius: 8px;
-  padding: 8px 10px;
-  font: inherit;
+.vss-field input::placeholder,
+.vss-field textarea::placeholder {
+  color: #667687;
+  opacity: 1;
 }
 
 .vss-row {

@@ -4,7 +4,7 @@ Tags: visual editor, custom css, white label, dashboard, dynamic content, agency
 Requires at least: 6.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ Visual Site Studio is a commercial-grade WordPress toolkit for agencies and site
 3. Open **Site Studio** in wp-admin, then visit the front end and click **Studio**
 
 == Changelog ==
+
+= 2.0.1 =
+* Clearer empty-field placeholders in the visual editor
 
 = 2.0.0 =
 * Product rewrite: visual editor, dashboard widgets, dynamic content, backup
